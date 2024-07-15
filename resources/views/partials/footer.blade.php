@@ -39,7 +39,7 @@
     <div class="socials">
         <section class="containerSocials">
             <div class="button">
-                <span class="button-footer">sign-up now!</span>
+                <span class="buttonFooter">sign-up now!</span>
             </div>
             <div class="social">
                 <h3>fallow us</h3>
