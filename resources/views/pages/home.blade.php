@@ -1,10 +1,6 @@
 @extends('layout.app')
 @section('page-title', 'Homepage')
 
-@section('header')
-    <section class="container-header">
-
-    </section>
 
 @section('jumbo-tron')
     <section class="container-jumbo">
