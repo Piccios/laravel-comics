@@ -141,10 +141,11 @@ footer{
             }
         };
 
-        .container-links{
+        .containerLinks{
             background-repeat: no-repeat;
             background-size: cover;
             display: flex;
+            margin-left: 12rem;
             width: 80%;
             background-image: url(../img/dc-logo-bg.png);
             background-repeat: no-repeat;
@@ -153,7 +154,7 @@ footer{
             div{
                 display: flex;
                 flex-wrap: wrap;
-                margin-left: 5rem;
+                // margin-left: 5rem;
                 height: 350px;
                 ul{
                     margin-right: 1rem;
@@ -200,7 +201,7 @@ section.containerSocials{
 .social{
     h3{
         text-transform: uppercase;
-        color: #0282f9;
+        color: #0486ff;
     };
     ul{
         display: flex;

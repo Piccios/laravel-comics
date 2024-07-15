@@ -1,6 +1,6 @@
 <footer>
     <div>
-        <section class="container-links">
+        <section class="containerLinks">
             <div>
                 <ul class="footerPartOne">
                     <h2> dc comics </h2>
