@@ -17,6 +17,21 @@
                         <a href="">{{$link['name']}}</a>
                     @endforeach
                     </ul>
+                <ul class="footerPartTwo">
+                    <h2>dc</h2>
+                    @foreach ($FooterPartTwo as $link)
+                    <li>
+                        <a href="">{{$link['name']}}</a>
+                    </li>
+                    @endforeach
+                </ul>
+                <ul class="footerPartThree">
+                    <h2>sites</h2>
+                    @foreach ($FooterPartThree as $link)
+                    <li>
+                        <a href="">{{$link['name']}}</a>
+                    </li>
+                    @endforeach
             </div>
         </secrtion>
     </div>
