@@ -141,4 +141,26 @@ footer{
                 margin-bottom: .3rem;
             }
         };
+
+        .container-links{
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            width: 80%;
+            background-image: url(../img/dc-logo-bg.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: auto;
+            div{
+                margin-right: 1.8rem;
+                ul{
+                    li{
+                        a{
+                            color: #7f847f;
+                        };
+                    };
+                };
+            };
+        };
 };
+
