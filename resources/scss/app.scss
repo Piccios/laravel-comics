@@ -177,6 +177,38 @@ footer{
             }
 };
 
+.socials{
+    background-color: #303030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+};
 
+section.containerSocials{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 80%;
+    padding: 2rem 0;
+        div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+};
+.social{
+    h3{
+        text-transform: uppercase;
+        color: #0282f9;
+    };
+    ul{
+        display: flex;
+        flex-direction: row;
+        li{
+            padding-left: 1rem;
+        };
+    };
+}
 
 
