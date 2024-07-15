@@ -295,5 +295,5 @@ Route::get('/', function () {
         ],
     ];
 
-    return view('pages.home', compact("headerLinks", "FooterPartOne", "FooterShop", "FooterPartTwo", "FooterPartThree"));
+    return view('pages.home', compact("comics","headerLinks", "FooterPartOne", "FooterShop", "FooterPartTwo", "FooterPartThree"));
 });
