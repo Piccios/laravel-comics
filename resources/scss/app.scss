@@ -121,8 +121,7 @@ footer{
     background-size: cover;
 
         div:nth-child(1){
-            display: flex;
-            justify-content: center;
+            display: flex;;
             section{
                 div:nth-child(1){
                     display: flex;
@@ -152,8 +151,12 @@ footer{
             background-position: right;
             background-size: auto;
             div{
-                margin-right: 1.8rem;
+                display: flex;
+                flex-wrap: wrap;
+                margin-left: 5rem;
+                height: 350px;
                 ul{
+                    margin-right: 1rem;
                     li{
                         a{
                             color: #7f847f;
@@ -162,5 +165,18 @@ footer{
                 };
             };
         };
+            .footerShop,
+            .footerPartOne,
+            .footerPartTwo,
+            .footerPartThree{
+                li{
+                    a{
+                        color: white;
+                    }
+                }
+            }
 };
+
+
+
 

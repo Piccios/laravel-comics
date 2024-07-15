@@ -1,6 +1,6 @@
 <footer>
     <div>
-        <secrtion class="container-links">
+        <section class="container-links">
             <div>
                 <ul class="footerPartOne">
                     <h2> dc comics </h2>
@@ -10,7 +10,7 @@
                     </li>
                     @endforeach
                 </ul>
-                <ul class="FooterShop">
+                <ul class="footerShop">
                     <h2>shop</h2>
                     @foreach ($FooterShop as $link)
                     <li>
@@ -32,7 +32,8 @@
                         <a href="">{{$link['name']}}</a>
                     </li>
                     @endforeach
+                </ul>
             </div>
-        </secrtion>
+        </section>
     </div>
 </footer>
