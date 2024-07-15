@@ -16,13 +16,13 @@
     @include('partials.header')
     @yield('jumbo-tron')
 
+
     <main>
         @yield('main-content')
     </main>
 
+
     @yield('info')
-
     @include('partials.footer')
-
 </body>
 </html>
