@@ -15,7 +15,7 @@
 @section('main-content')
     <section class="list-products">
         @foreach ($comics as $comic)
-    <article class="series_comics">
+    <article class="books">
             <img src="{{ $comic['thumb'] }}" alt="{{$comic['title']}}">
             <p>
                 {{$comic['title']}}
