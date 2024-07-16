@@ -44,7 +44,7 @@ Route::get('/', function () {
         ],
         [
             "id" => 6,
-            "name" => 'collectibles',
+            "name" => 'collectables',
             "url" => '/',
         ],
         [
@@ -91,7 +91,7 @@ Route::get('/', function () {
         ],
         [
             "id" => 6,
-            "name" => 'collectibles',
+            "name" => 'collectables',
         ],
         [
             "id" => 7,
@@ -113,7 +113,7 @@ Route::get('/', function () {
         ],
         [
             "id" => 2,
-            "name" => 'shop DC collectibles',
+            "name" => 'shop DC collectables',
         ],
     ];
     $FooterPartTwo = [
@@ -131,7 +131,7 @@ Route::get('/', function () {
         ],
         [
             "id" => 4,
-            "name" => 'Advertiosing',
+            "name" => 'Advertising',
         ],
         [
             "id" => 5,
@@ -219,7 +219,7 @@ Route::get('/products', function(){
         ],
         [
             "id" => 6,
-            "name" => 'collectibles',
+            "name" => 'collectables',
             "url" => '/',
         ],
         [
@@ -378,7 +378,7 @@ Route::get('/products', function(){
         ],
         [
             "id" => 6,
-            "name" => 'collectibles',
+            "name" => 'collectables',
         ],
         [
             "id" => 7,
@@ -400,7 +400,7 @@ Route::get('/products', function(){
         ],
         [
             "id" => 2,
-            "name" => 'shop DC collectibles',
+            "name" => 'shop DC collectables',
         ],
     ];
     $FooterPartTwo = [
@@ -418,7 +418,7 @@ Route::get('/products', function(){
         ],
         [
             "id" => 4,
-            "name" => 'Advertiosing',
+            "name" => 'Advertising',
         ],
         [
             "id" => 5,
