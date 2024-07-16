@@ -19,53 +19,53 @@ Route::get('/', function () {
     $headerLinks = [
         [
             "id" => 1,
-            "name" => 'Characters',
-            "active" => false,
+            "name" => 'home',
+            "url"=> '/',
         ],
         [
             "id" => 2,
             "name" => 'comics',
-            "active" => true,
+            "url" => '/products',
         ],
         [
             "id" => 3,
             "name" => 'movies',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 4,
             "name" => 'tv',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 5,
             "name" => 'games',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 6,
             "name" => 'collectibles',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 7,
             "name" => 'videos',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 8,
             "name" => 'fans',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 9,
             "name" => 'news',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 10,
             "name" => 'shop',
-            "active" => false,
+            "url" => '/',
         ],
     ];
     $FooterPartOne = [
@@ -194,53 +194,53 @@ Route::get('/products', function(){
     $headerLinks = [
         [
             "id" => 1,
-            "name" => 'Characters',
-            "active" => false,
+            "name" => 'home',
+            "url"=> '/',
         ],
         [
             "id" => 2,
             "name" => 'comics',
-            "active" => true,
+            "url" => '/products',
         ],
         [
             "id" => 3,
             "name" => 'movies',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 4,
             "name" => 'tv',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 5,
             "name" => 'games',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 6,
             "name" => 'collectibles',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 7,
             "name" => 'videos',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 8,
             "name" => 'fans',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 9,
             "name" => 'news',
-            "active" => false,
+            "url" => '/',
         ],
         [
             "id" => 10,
             "name" => 'shop',
-            "active" => false,
+            "url" => '/',
         ],
     ];
 

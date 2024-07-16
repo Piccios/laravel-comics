@@ -7,10 +7,11 @@
             <nav>
                 <ul>
                     @foreach ($headerLinks as $link)
-                        <li class="{{$link['active']? 'active' : ''}}">
-                            {{ $link['name'] }}
-                        </li>
-                    @endforeach
+                    <li class="{{(Route::CurrentRouteName() == 'guest.' . $link['name']) ? 'active' : ''}}">
+                        <a href="{{ $link['url'] }}">{{ $link['name'] }}</a>
+
+                    </li>
+                @endforeach
                 </ul>
             </nav>
         </section>
