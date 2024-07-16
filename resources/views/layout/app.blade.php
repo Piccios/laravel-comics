@@ -13,16 +13,19 @@
     @vite('resources/js/app.js')
 </head>
 <body>
+    {{-- include copys the content of the file at resources/views/partials/header.blade.php --}}
     @include('partials.header')
     @yield('jumbo-tron')
 
 
     <main>
+        {{-- yield permits to modify the content of the file at resources/views/pages/home.blade.php --}}
         @yield('main-content')
     </main>
 
 
     @yield('info')
+    {{-- include copys the content of the file at resources/views/partials/footer.blade.php --}}
     @include('partials.footer')
 </body>
 </html>
